@@ -5,3 +5,6 @@ export COMMIT := $(shell git rev-parse --short HEAD)
 
 build:
 	@./scripts/build.sh
+
+push:
+	@./scripts/upload.sh
